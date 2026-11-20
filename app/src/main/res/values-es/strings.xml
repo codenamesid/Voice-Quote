@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">QuoteVoice</string>
+
+    <!-- Navigation -->
+    <string name="nav_record">Grabar</string>
+    <string name="nav_quotes">Cotizaciones</string>
+    <string name="nav_invoices">Facturas</string>
+    <string name="nav_price_book">Tarifario</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title">Configura tu negocio</string>
+    <string name="onboarding_subtitle">Prepara tus precios por oficio en 30 segundos para cotizar hablando.</string>
+    <string name="onboarding_business_name">Nombre del negocio</string>
+    <string name="onboarding_license_number">N.º de licencia (opcional)</string>
+    <string name="onboarding_phone">Teléfono</string>
+    <string name="onboarding_tax_rate">Impuesto (%)</string>
+    <string name="onboarding_deposit_percent">Depósito predeterminado (%)</string>
+    <string name="onboarding_pick_trade">Elige tu oficio</string>
+    <string name="onboarding_pick_logo">Agregar logotipo</string>
+    <string name="onboarding_change_logo">Cambiar logotipo</string>
+    <string name="onboarding_finish_cta">Empezar a cotizar</string>
+    <string name="onboarding_seeded_items_note">%1$d precios iniciales listos para %2$s</string>
+
+    <!-- Record Screen -->
+    <string name="record_title">Describe el trabajo</string>
+    <string name="record_subtitle">Di nombre del cliente, dirección, mano de obra y materiales en español o inglés.</string>
+    <string name="record_tap_to_speak">Toca para hablar</string>
+    <string name="record_listening">Escuchando… toca para terminar</string>
+    <string name="record_extract_cta">Crear Cotización</string>
+    <string name="record_try_sample">Probar transcripción de ejemplo</string>
+    <string name="record_transcript_hint">O escribe / edita la descripción aquí…</string>
+    <string name="record_offline_ready">Listo sin señal • Guardado local activo</string>
+    <string name="record_mic_permission_needed">Se necesita permiso del micrófono para dictar trabajos por voz.</string>
+    <string name="record_grant_permission">Permitir Micrófono</string>
+
+    <!-- AI Placeholder Notice -->
+    <string name="ai_placeholder_notice">La extracción con IA está en modo local de prueba. Habilita Firebase para conectar Gemini AI y sincronización en la nube.</string>
+
+    <!-- Review / Edit Screen -->
+    <string name="review_title">Revisar Cotización</string>
+    <string name="review_customer_section">Cliente y Obra</string>
+    <string name="review_customer_name">Nombre del cliente</string>
+    <string name="review_customer_address">Dirección del trabajo</string>
+    <string name="review_customer_phone">Teléfono del cliente</string>
+    <string name="review_line_items">Partidas</string>
+    <string name="review_swipe_hint">Desliza a la izquierda para borrar • Toca para editar</string>
+    <string name="review_add_item">Agregar partida</string>
+    <string name="review_price_book_badge">TARIFARIO</string>
+    <string name="review_estimate_badge">ESTIMADO IA</string>
+    <string name="review_manual_badge">MANUAL</string>
+    <string name="review_estimate_warning">%1$d partida(s) estimadas — toca para verificar</string>
+    <string name="review_preview_cta">Vista Previa y Enviar</string>
+    <string name="review_notes_label">Notas del trabajo</string>
+    <string name="review_delete_action">Borrar</string>
+
+    <!-- Quote Preview & Send -->
+    <string name="preview_title">Vista Previa</string>
+    <string name="preview_output_language">Idioma de la cotización</string>
+    <string name="preview_generate_pdf">Exportar PDF con Marca</string>
+    <string name="preview_send_sms">Enviar por SMS</string>
+    <string name="preview_send_email">Enviar por Correo</string>
+    <string name="preview_share_link">Compartir Enlace</string>
+    <string name="preview_mark_accepted">Simular Firma del Cliente</string>
+    <string name="preview_convert_invoice">Convertir a Factura en 1 Toque</string>
+    <string name="preview_pdf_saved">PDF generado y listo para compartir</string>
+
+    <!-- Quotes List -->
+    <string name="quotes_title">Cotizaciones</string>
+    <string name="quotes_search_hint">Buscar cliente, trabajo o #…</string>
+    <string name="quotes_empty_title">Sin cotizaciones aún</string>
+    <string name="quotes_empty_subtitle">Toca Grabar y describe tu primer trabajo para generar una cotización al instante.</string>
+    <string name="quotes_quota_banner">Plan gratis: quedan %1$d de 5 cotizaciones este mes</string>
+    <string name="quotes_upgrade_pro">Cambiar a Pro ($24.99/mes)</string>
+
+    <!-- Invoices -->
+    <string name="invoices_title">Facturas</string>
+    <string name="invoices_empty_title">Sin facturas aún</string>
+    <string name="invoices_empty_subtitle">Convierte cualquier cotización aceptada en factura con un toque.</string>
+    <string name="invoice_balance_due">Saldo Pendiente</string>
+    <string name="invoice_deposit_paid">Depósito Pagado</string>
+    <string name="invoice_auto_reminders">Recordatorios automáticos de pago</string>
+    <string name="invoice_record_payment">Marcar Pagada</string>
+    <string name="invoice_send_reminder">Enviar Recordatorio</string>
+
+    <!-- Common -->
+    <string name="subtotal">Subtotal</string>
+    <string name="tax">Impuesto</string>
+    <string name="total">Total</string>
+    <string name="deposit_due">Depósito requerido</string>
+    <string name="save">Guardar</string>
+    <string name="cancel">Cancelar</string>
+</resources>

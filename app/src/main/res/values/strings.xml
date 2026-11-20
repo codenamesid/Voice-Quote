@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">QuoteVoice</string>
+
+    <!-- Navigation -->
+    <string name="nav_record">Record</string>
+    <string name="nav_quotes">Quotes</string>
+    <string name="nav_invoices">Invoices</string>
+    <string name="nav_price_book">Price Book</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title">Set up your shop</string>
+    <string name="onboarding_subtitle">Seed your trade price book in 30 seconds so voice quotes price themselves automatically.</string>
+    <string name="onboarding_business_name">Business name</string>
+    <string name="onboarding_license_number">License # (optional)</string>
+    <string name="onboarding_phone">Phone number</string>
+    <string name="onboarding_tax_rate">Sales tax (%)</string>
+    <string name="onboarding_deposit_percent">Default deposit (%)</string>
+    <string name="onboarding_pick_trade">Select your trade</string>
+    <string name="onboarding_pick_logo">Add company logo</string>
+    <string name="onboarding_change_logo">Change logo</string>
+    <string name="onboarding_finish_cta">Start quoting</string>
+    <string name="onboarding_seeded_items_note">%1$d starter price-book items ready for %2$s</string>
+
+    <!-- Record Screen -->
+    <string name="record_title">Speak the job</string>
+    <string name="record_subtitle">Say customer name, address, labor, and materials in English or Spanish.</string>
+    <string name="record_tap_to_speak">Tap to speak</string>
+    <string name="record_listening">Listening… tap to finish</string>
+    <string name="record_extract_cta">Build Quote</string>
+    <string name="record_try_sample">Try a sample transcript</string>
+    <string name="record_transcript_hint">Or type / edit your job description here…</string>
+    <string name="record_offline_ready">Offline-ready • Local storage active</string>
+    <string name="record_mic_permission_needed">Microphone permission is needed to record jobs by voice.</string>
+    <string name="record_grant_permission">Allow Mic</string>
+
+    <!-- AI Placeholder Notice -->
+    <string name="ai_placeholder_notice">AI extraction is running in local placeholder mode. Enable Firebase to connect live Gemini AI extraction and cloud sync.</string>
+
+    <!-- Review / Edit Screen -->
+    <string name="review_title">Review Quote</string>
+    <string name="review_customer_section">Customer &amp; Site</string>
+    <string name="review_customer_name">Customer name</string>
+    <string name="review_customer_address">Job address</string>
+    <string name="review_customer_phone">Customer phone</string>
+    <string name="review_line_items">Line Items</string>
+    <string name="review_swipe_hint">Swipe left to delete • Tap to edit</string>
+    <string name="review_add_item">Add line item</string>
+    <string name="review_price_book_badge">PRICE BOOK</string>
+    <string name="review_estimate_badge">AI ESTIMATE</string>
+    <string name="review_manual_badge">CUSTOM</string>
+    <string name="review_estimate_warning">%1$d item(s) priced as estimates — tap to verify</string>
+    <string name="review_preview_cta">Preview &amp; Send Quote</string>
+    <string name="review_notes_label">Job notes</string>
+    <string name="review_delete_action">Delete</string>
+
+    <!-- Quote Preview & Send -->
+    <string name="preview_title">Quote Preview</string>
+    <string name="preview_output_language">Customer quote language</string>
+    <string name="preview_generate_pdf">Export Branded PDF</string>
+    <string name="preview_send_sms">Send via SMS</string>
+    <string name="preview_send_email">Send via Email</string>
+    <string name="preview_share_link">Share Web Link</string>
+    <string name="preview_mark_accepted">Simulate Customer E-Sign</string>
+    <string name="preview_convert_invoice">1-Tap Convert to Invoice</string>
+    <string name="preview_pdf_saved">Branded PDF generated and ready to share</string>
+
+    <!-- Quotes List -->
+    <string name="quotes_title">Quotes</string>
+    <string name="quotes_search_hint">Search customer, job, or #…</string>
+    <string name="quotes_empty_title">No quotes yet</string>
+    <string name="quotes_empty_subtitle">Tap Record and speak your first job to generate a priced quote in seconds.</string>
+    <string name="quotes_quota_banner">Free plan: %1$d of 5 quotes left this month</string>
+    <string name="quotes_upgrade_pro">Upgrade to Pro ($24.99/mo)</string>
+
+    <!-- Invoices -->
+    <string name="invoices_title">Invoices</string>
+    <string name="invoices_empty_title">No invoices yet</string>
+    <string name="invoices_empty_subtitle">Convert any accepted quote into an invoice with one tap.</string>
+    <string name="invoice_balance_due">Balance Due</string>
+    <string name="invoice_deposit_paid">Deposit Paid</string>
+    <string name="invoice_auto_reminders">Automatic payment reminders</string>
+    <string name="invoice_record_payment">Mark Paid in Full</string>
+    <string name="invoice_send_reminder">Send Reminder Now</string>
+
+    <!-- Common -->
+    <string name="subtotal">Subtotal</string>
+    <string name="tax">Tax</string>
+    <string name="total">Total</string>
+    <string name="deposit_due">Deposit due</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+</resources>
