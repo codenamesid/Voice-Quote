@@ -158,7 +158,7 @@ fun RecordScreen(
         ) {
             Column(modifier = Modifier.weight(1f)) {
                 Text(
-                    text = business?.name ?: "QuoteVoice",
+                    text = business?.name ?: "AI Voice Quote",
                     style = MaterialTheme.typography.labelMedium,
                     color = MaterialTheme.colorScheme.primary
                 )

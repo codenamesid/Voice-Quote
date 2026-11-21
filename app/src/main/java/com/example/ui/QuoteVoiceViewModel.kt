@@ -333,7 +333,7 @@ class QuoteVoiceViewModel(
     fun upgradeToPro(tier: SubscriptionTier) {
         viewModelScope.launch {
             repository.upgradeSubscriptionTier(tier)
-            _statusBannerMessage.value = "QuoteVoice Pro unlocked (local preview)"
+            _statusBannerMessage.value = "AI Voice Quote Pro unlocked (local preview)"
         }
     }
 

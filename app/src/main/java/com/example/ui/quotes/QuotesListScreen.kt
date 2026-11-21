@@ -301,7 +301,7 @@ fun QuotesListScreen(
     if (showUpgradeDialog) {
         AlertDialog(
             onDismissRequest = { showUpgradeDialog = false },
-            title = { Text("QuoteVoice Pro") },
+            title = { Text("AI Voice Quote Pro") },
             text = {
                 Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
                     Text("Unlimited voice quotes, customer e-signature, Stripe deposit links, automatic payment reminders, and custom branding.")

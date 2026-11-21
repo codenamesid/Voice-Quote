@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">QuoteVoice</string>
+    <string name="app_name">AI Voice Quote</string>
 
     <!-- Navigation -->
     <string name="nav_record">Record</string>

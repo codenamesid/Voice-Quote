@@ -22,6 +22,6 @@ dependencyResolutionManagement {
   }
 }
 
-rootProject.name = "QuoteVoice"
+rootProject.name = "AI Voice Quote"
 
 include(":app")

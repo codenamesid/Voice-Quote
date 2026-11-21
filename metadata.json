@@ -1,5 +1,5 @@
 {
-  "name": "QuoteVoice",
+  "name": "AI Voice Quote",
   "description": "Voice-to-quote Android app for solo contractors to record job descriptions in English or Spanish and send branded quotes and invoices on site.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]

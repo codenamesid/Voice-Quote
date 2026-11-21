@@ -168,7 +168,7 @@ object QuotePdfGenerator {
             }
         }
 
-        canvas.drawText(business.name.ifBlank { "QuoteVoice Contractor" }, textStartX, 46f, whiteHeader)
+        canvas.drawText(business.name.ifBlank { "AI Voice Quote Contractor" }, textStartX, 46f, whiteHeader)
         val bizMeta = buildList {
             if (business.licenseNumber.isNotBlank()) {
                 add((if (isEs) "Licencia #: " else "Lic #: ") + business.licenseNumber)
